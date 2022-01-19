@@ -1,0 +1,19 @@
+{
+  "name": "node-red-function-logger",
+  "version": "2.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Nam Giang",
+  "license": "MIT",
+  "scripts": {
+    "jestClean": "./node_modules/.bin/jest --clearCache",
+    "build": "tsc",
+    "test": "yarn jestClean && ./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "ts-jest": "^25.5.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  }
+}
